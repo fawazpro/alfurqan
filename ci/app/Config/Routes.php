@@ -38,6 +38,8 @@ $routes->get('/faq', 'Pages::faq');
 $routes->get('/contact', 'Pages::contact');
 $routes->get('/register', 'Pages::register');
 $routes->post('/register', 'Pages::postregister');
+$routes->post('/regbasic', 'Pages::postregbasic');
+$routes->post('/regpayment', 'Pages::postregpayment');
 
 /**
  * --------------------------------------------------------------------

@@ -24,8 +24,8 @@
 				<div class="signin-form">
 					<div class="login-form-rec">
 						<form action="register" method="post" class="form-inputs" enctype="multipart/form-data">
-							<input type="text" name="fname" placeholder="First Name" required="">
-							<input type="text" name="lname" placeholder="Last Name" required="">
+							<input type="text" name="fname" value="<?=$fname?>" placeholder="First Name" required="">
+							<input type="text" name="lname" value="<?=$lname?>" placeholder="Last Name" required="">
 							<input type="date" class="form-control" name="dob" placeholder="Date of Birth" required="">
                             <hr>
                             <div class="form-group">
@@ -52,11 +52,11 @@
                             </select>
                             <hr class="border-top">
 
-                            <p class="text-center">Parent/Guardian Details</p>
+                            <p class="text-center" style="color: #000;">Parent/Guardian Details</p>
 							<input type="text" name="pfname" placeholder="First Name" required="">
 							<input type="text" name="plname" placeholder="Last Name" required="">
 							<input type="text" name="phone" placeholder="Phone Number" required="" maxlength="13">
-							<input type="email" name="email" placeholder="Email" required="">
+							<input type="email" name="email" value="<?=$email?>" placeholder="Email" required="">
 							
 							<input type="submit" name="register" value="Sign Up">
 						</form>
