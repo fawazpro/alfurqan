@@ -11,7 +11,7 @@ class Reg extends Model
     protected $returnType = 'array';
     protected $useSoftDeletes = true;
 
-    protected $allowedFields = ['fname','lname','dob','passport','address','gender','doc','pfname','plname','phone','email'];
+    protected $allowedFields = ['fname','lname','pphone','dob','passport','address','gender','doc','juz','pfname','plname','phone','email'];
 
     protected $useTimestamps = true;
     protected $createdField  = 'created_at';

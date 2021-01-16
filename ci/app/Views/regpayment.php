@@ -22,11 +22,11 @@
 			</div>
 			<div class="inner_sec_info_agileits_w3">
 				<div class="signin-form">
-                <p class="lead">Make a transfer or bank deposit to the following account details, then input the access code sent to you in the field provided below</p>
+                <p class="lead">Make a transfer or bank deposit to the following account details. Then send a prove of payment to this number (<a href="tel:08164773674">08164773674</a>). Then input the access code sent to you in the field provided below</p>
                 <ul class="list-group">
-                    <li class="list-group-item">Bank: Zenith</li>
-                    <li class="list-group-item">Account Name: Fawaz Ibreaheem</li>
-                    <li class="list-group-item">Account Number: 2048634157</li>
+                    <li class="list-group-item">Bank: United Bank of Africa (UBA)</li>
+                    <li class="list-group-item">Account Name:  Al-Furqan Learning Consult</li>
+                    <li class="list-group-item">Account Number: <a href="tel:1022692440">1022692440</a> </li>
                 </ul>
                 <hr>
 					<div class="login-form-rec">

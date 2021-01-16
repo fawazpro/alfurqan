@@ -26,6 +26,7 @@
 						<form action="register" method="post" class="form-inputs" enctype="multipart/form-data">
 							<input type="text" name="fname" value="<?=$fname?>" placeholder="First Name" required="">
 							<input type="text" name="lname" value="<?=$lname?>" placeholder="Last Name" required="">
+							<input type="text" name="pphone" placeholder="Personal Phone Number" required="" maxlength="13">
 							<input type="date" class="form-control" name="dob" placeholder="Date of Birth" required="">
                             <hr>
                             <div class="form-group">
@@ -42,13 +43,19 @@
 								<option value="f">Female</option>
                             </select>
 							<select name="doc" required>
-								<option value="">Department of choice</option>
-								<option value="Full Boarding Tahfeedh">Full Boarding Tahfeedh (F.B.T)</option>
-								<option value="Weekend Boarding Tahfeedh">Weekend Boarding Tahfeedh (W.B.T)</option>
+								<option value="">Programme of choice</option>
 								<option value="Part-Time Day Tahfeedh">Part-Time Day Tahfeedh (P.D.T)</option>
 								<option value="Occasional Tahfeedh Program">Occasional Tahfeedh Program (O.T.P)</option>
 								<option value="Full Day Tahfeedh">Full Day Tahfeedh (F.D.T)</option>
 								<option value="Holiday Qur'anic Memorization">Holiday Qur'anic Memorization (H.Q.M)</option>
+                            </select>
+							<select name="juz" required>
+								<option value="">Juz'u Memorised</option>
+								<option value="None">None</option>
+								<option value="One Juzu">One Juz'u</option>
+								<option value="Less than five Juzu">Less than five Juz'u</option>
+								<option value="Five Juzu">Five Juz'u</option>
+								<option value="More than five Juzu">More than five Juz'u</option>
                             </select>
                             <hr class="border-top">
 
