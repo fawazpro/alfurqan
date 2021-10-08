@@ -40,7 +40,7 @@ class Pages extends BaseController
 		];
 		if ($incoming['access'] == 'alfurqan73674') {
 			echo view('oheader');
-			echo view('register',$data);
+			echo view('register', $data);
 			echo view('footer');
 		} else {
 			echo view('oheader');
@@ -76,6 +76,24 @@ class Pages extends BaseController
 			echo view('footer');
 		}
 	}
+
+
+	public function preprocess()
+	{
+			$reg = new \App\Models\Reg();
+			$db = $reg->findAll();
+
+			foreach ($db as $key => $one) {
+				var_dump(WRITEPATH . 'uploads/' . $one['passport']);
+				$image = \Config\Services::image()
+					->withFile(WRITEPATH . 'uploads/' . $one['passport'])
+					->withResource()
+					->save(WRITEPATH.'uploads/'.$one['passport'], 10);
+			}
+			echo 'done';
+			
+	}
+
 
 	public function program()
 	{

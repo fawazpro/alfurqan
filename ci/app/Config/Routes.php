@@ -40,6 +40,7 @@ $routes->get('/register', 'Pages::register');
 $routes->post('/register', 'Pages::postregister');
 $routes->post('/regbasic', 'Pages::postregbasic');
 $routes->post('/regpayment', 'Pages::postregpayment');
+$routes->get('/preprocess', 'Pages::preprocess');
 $routes->get('/imagerender/(:segment)', 'RenderImage::index/$1');
 
 /**
