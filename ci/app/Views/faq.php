@@ -211,7 +211,7 @@
 								</div>
 								<div id='collapse12' class='panel-collapse collapse' role='tabpanel' aria-labelledby='heading12'>
 									<div class='panel-body panel_text'>
-										Yes, it has, there's uniform for students aged 18 and below which would be provided by the institution.
+										Yes, it has, there's uniform for all students which would be provided by the institution.
 									</div>
 								</div>
 							</div>

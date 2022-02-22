@@ -44,10 +44,10 @@
                             </select>
 							<select name="doc" required>
 								<option value="">Programme of choice</option>
-								<option value="Part-Time Day Tahfeedh">Part-Time Day Tahfeedh (P.D.T)</option>
-								<option value="Occasional Tahfeedh Program">Occasional Tahfeedh Program (O.T.P)</option>
-								<option value="Full Day Tahfeedh">Full Day Tahfeedh (F.D.T)</option>
-								<option value="Holiday Qur'anic Memorization">Holiday Qur'anic Memorization (H.Q.M)</option>
+								<option value="Arabic Class Children">Arabic & Memorization Class for children (Ibtidaa'iyyah and I'daadiyyah)</option>
+								<option value="Arabic Class Adult">Arabic Class for adults (I'daadiyyah only)</option>
+								<option value="Tahfeedh Adults">Tahfeedh  programme for adults</option>
+								<option value="Qiraa'at class">Qiraa'at class for Huffaadh</option>
                             </select>
 							<select name="juz" required>
 								<option value="">Juz'u Memorised</option>

@@ -22,7 +22,7 @@
 			</div>
 			<div class="inner_sec_info_agileits_w3">
 				<div class="signin-form">
-                <p class="lead">Make a transfer or bank deposit to the following account details. Then send a prove of payment to this number (<a href="tel:08164773674">08164773674</a>). Then input the access code sent to you in the field provided below</p>
+                <p class="lead">Make a transfer or bank deposit to the following account details. Then send a proof of payment to this number (<a href="tel:08164773674">08164773674</a>). Then input the access code sent to you in the field provided below</p>
                 <ul class="list-group">
                     <li class="list-group-item">Bank: United Bank of Africa (UBA)</li>
                     <li class="list-group-item">Account Name:  Al-Furqan Learning Consult</li>
