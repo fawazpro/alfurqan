@@ -128,7 +128,7 @@
 	                    <div class="col-md-9 text">
 	                        <h4>Second Session</h4>
 	                        <p>
-	                            <span style="font-family: 'Cairo', sans-serif; direction:rtl;">تعليم القراءات العشر
+	                            <span style="font-family: 'Cairo', sans-serif; direction:rtl;">تعلم القراءات العشر
 	                            </span> <br> Learning the ten modes of Qur'an recitation.
 
 	                        </p>
