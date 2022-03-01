@@ -89,11 +89,11 @@
 						<h3 style="font-family: 'Reem Kufi'">حلقة الحفظ</h3>
 						</div>
 						<div class="price-bg">
-							<p class="price-label-1 red">&#x20a6;<span>7000</span> <label>per Term</label></p>
+							<p class="price-label-1 red">&#x20a6;<span>3000</span> <label>per Term</label></p>
 							<ul class="count_w3ls_agile">
 								<li>Memorization class for students of higher institutions.</li>
 								<li></li>
-								<li>DURATION: 3 YEARS</li>
+								<li>DURATION: 1 YEAR</li>
 								<li>Wed: 3pm - 6pm</li>
 								<li>Sat & Sun: 3pm - 6pm</li>
 
