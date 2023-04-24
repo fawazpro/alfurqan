@@ -79,7 +79,7 @@
         let regForm = document.querySelector('#regForm');
         let image = document.querySelector('#pasport');
         let allowedMimes = ['png', 'jpg', 'jpeg']; //allowed image mime types
-        let maxMb = 240; //maximum allowed size (MB) of image
+        let maxMb = 400; //maximum allowed size (MB) of image
 
         function uploadImage() {
             if (!image.value) { // if the image input does not have value
