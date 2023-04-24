@@ -42,14 +42,14 @@
             <div class='header_left'>
                 <ul>
                     <li>
-                        <iframe src='https://free.timeanddate.com/clock/i61v3kn8/n125/fn12/fs20/fcfff/tct/pct/ftb/th2/ts1' frameborder='0' width='176' height='22' allowTransparency='true'></iframe>
+                        <iframe src='http://free.timeanddate.com/clock/i61v3kn8/n125/fn12/fs20/fcfff/tct/pct/ftb/th2/ts1' frameborder='0' width='176' height='22' allowTransparency='true'></iframe>
                     </li>
                 </ul>
             </div>
             <div class='header_right'>
                 <ul class='forms_right'>
-                    <li><a class='active' href='#!'> Sign In</a> </li>
-                    <li><a href='register'> Sign Up</a> </li>
+                    <!--<li><a class='active' href='#!'> Sign In</a> </li>-->
+                    <li><a class='active' href='register'> Register</a> </li>
                 </ul>
 
             </div>

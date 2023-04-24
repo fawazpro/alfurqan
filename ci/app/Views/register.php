@@ -23,7 +23,7 @@
 			<div class="inner_sec_info_agileits_w3">
 				<div class="signin-form">
 					<div class="login-form-rec">
-						<form action="register" method="post" class="form-inputs" enctype="multipart/form-data">
+						<form action="register" id="regForm" method="post" class="form-inputs" enctype="multipart/form-data">
 							<input type="text" name="fname" value="<?=$fname?>" placeholder="First Name" required="">
 							<input type="text" name="lname" value="<?=$lname?>" placeholder="Last Name" required="">
 							<input type="text" name="pphone" placeholder="Personal Phone Number" required="" maxlength="13">
@@ -31,7 +31,7 @@
                             <hr>
                             <div class="form-group">
                                 <label for="passport">Passport Photo</label>
-                                <input type="file" name="passport" required="">
+                                <input type="file" name="passport" required="" id="pasport">
                             </div>
                             <div class="form-group">
                                 <label for="address">Address</label>
@@ -74,3 +74,45 @@
 			</div>
 		</div>
 	</div>
+
+    <script>
+        let regForm = document.querySelector('#regForm');
+        let image = document.querySelector('#pasport');
+        let allowedMimes = ['png', 'jpg', 'jpeg']; //allowed image mime types
+        let maxMb = 240; //maximum allowed size (MB) of image
+
+        function uploadImage() {
+            if (!image.value) { // if the image input does not have value
+                return showError('No image selected :(');
+            }
+            else {
+                let mime = image.value.split('.').pop(); // get the extension/mime of image file
+                if (!allowedMimes.includes(mime)) {  // if allowedMimes array does not have the extension
+                    return showError("Only png,jpg,jpeg alowed");
+                }
+                else {
+                    let mb = image.files[0].size / 1024; // convert the file size into byte to kb
+                    // let mb = kb / 1024; // convert kb to mb
+                    if (mb > maxMb) { // if the file size is gratter than maxMb
+                        return showError(`Image should be less than ${maxMb} KB`);
+                    }
+                    else { // if all the validations are good
+                        // alert("Image has uploaded successfully :)")
+                        return true;
+                    }
+                }
+            }
+        }
+
+        function showError(errorMessage) {
+            alert(errorMessage);
+        }
+
+        regForm.addEventListener('submit', (e)=>{
+            e.preventDefault();
+            if(uploadImage()){
+                regForm.submit();
+            }
+        })
+
+    </script>

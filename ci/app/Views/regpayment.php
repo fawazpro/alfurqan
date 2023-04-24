@@ -37,7 +37,7 @@
 							<input type="submit" name="register" value="Proceed to Registration">
 						</form>
 					</div>
-					<p class="reg">NB: The registeration requires a passport, so get that ready</p>
+					<p class="reg">NB: The registeration requires a passport (<=400KB in size), so get that ready</p>
 
 				</div>
 			</div>
